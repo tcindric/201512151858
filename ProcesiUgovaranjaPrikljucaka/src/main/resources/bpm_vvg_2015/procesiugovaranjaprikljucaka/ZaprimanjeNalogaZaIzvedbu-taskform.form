@@ -7,211 +7,131 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt;
-quot;quot;dequot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt;
-quot;quot;enquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt;
-quot;quot;esquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt;
-quot;quot;frquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt;
-quot;quot;jaquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt;
-quot;quot;ptquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt;
-quot;quot;zhquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;ZAPRIMANJE ZAHTJEVA ZA PRIKLJUCENJE&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="2" name="nalogIzvedbaId_nalogId" type="InputText" id="1829664197">
+<field position="1" name="nalogIzvedbaId_nazivNaloga" type="InputText" id="457592595">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj naloga quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;nazivNaloga (nalogIzvedbaId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="nalogIzvedba_in/nalogId"/>
-<property name="outputBinding" value="nalogIzvedba_out/nalogId"/>
+<property name="inputBinding" value="nalogIzvedba_out/nazivNaloga"/>
+<property name="outputBinding" value="nalogIzvedba_out/nazivNaloga"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="nalogIzvedbaId_datumNaloga" type="InputDate" id="327124634">
+<field position="2" name="nalogIzvedbaId_datumNaloga" type="InputDate" id="1373687593">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datum nalogaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;datumNaloga (nalogIzvedbaId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="nalogIzvedba_in/datumNaloga"/>
+<property name="inputBinding" value="nalogIzvedba_out/datumNaloga"/>
 <property name="outputBinding" value="nalogIzvedba_out/datumNaloga"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="5" name="korisnikId_prezimeKorisnika" type="InputText" id="1748096020">
+<field position="3" name="korisnikId_imeKorisnika" type="InputText" id="310152108">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Prezime korisnika quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;imeKorisnika (korisnikId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/prezimeKorisnika"/>
-<property name="outputBinding" value="korisnik_out/prezimeKorisnika"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="korisnikId_adresaKorisnika" type="InputText" id="1968930978">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/adresaKorisnika"/>
-<property name="outputBinding" value="korisnik_out/adresaKorisnika"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="korisnikId_brojTelefonaKorisnika" type="InputText" id="873491530">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj telefona korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/brojTelefonaKorisnika"/>
-<property name="outputBinding" value="korisnik_out/brojTelefonaKorisnika"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="4" name="korisnikId_imeKorisnika" type="InputText" id="1741166301">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Ime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/imeKorisnika"/>
+<property name="inputBinding" value="korisnik_out/imeKorisnika"/>
 <property name="outputBinding" value="korisnik_out/imeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="korisnikId_obiKorisnika" type="InputText" id="1428394802">
+<field position="4" name="korisnikId_prezimeKorisnika" type="InputText" id="70796501">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;OIB korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;prezimeKorisnika (korisnikId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/obiKorisnika"/>
+<property name="inputBinding" value="korisnik_out/prezimeKorisnika"/>
+<property name="outputBinding" value="korisnik_out/prezimeKorisnika"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="korisnikId_obiKorisnika" type="InputText" id="448900361">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;obiKorisnika (korisnikId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_out/obiKorisnika"/>
 <property name="outputBinding" value="korisnik_out/obiKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="9" name="prikljucakId_adresaPrikljucka" type="InputText" id="472989192">
+<field position="6" name="korisnikId_adresaKorisnika" type="InputText" id="554119519">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;adresaKorisnika (korisnikId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/adresaPrikljucka"/>
+<property name="inputBinding" value="korisnik_out/adresaKorisnika"/>
+<property name="outputBinding" value="korisnik_out/adresaKorisnika"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="korisnikId_korisnikId" type="InputText" id="391601828">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;korisnikId (korisnikId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_out/korisnikId"/>
+<property name="outputBinding" value="korisnik_out/korisnikId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="prikljucakId_adresaPrikljucka" type="InputText" id="1675071455">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;adresaPrikljucka (prikljucakId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="11" name="prikljucakId_dubinaPrikljucka" type="InputText" id="1696352993">
+<field position="9" name="prikljucakId_dubinaPrikljucka" type="InputText" id="1832897286">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;dubina prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;dubinaPrikljucka (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/dubinaPrikljucka"/>
+<property name="inputBinding" value="prikljucak_out/dubinaPrikljucka"/>
 <property name="outputBinding" value="prikljucak_out/dubinaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="13" name="prikljucakId_duzinaPrikljucka" type="InputText" id="1526877590">
+<field position="10" name="prikljucakId_duzinaPrikljucka" type="InputText" id="2113735369">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;duzina prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;duzinaPrikljucka (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/duzinaPrikljucka"/>
+<property name="inputBinding" value="prikljucak_out/duzinaPrikljucka"/>
 <property name="outputBinding" value="prikljucak_out/duzinaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="prikljucakId_katastarskaCesticaBroj" type="InputText" id="930780093">
+<field position="11" name="prikljucakId_katastarskaCesticaBroj" type="InputText" id="1868497656">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Katastarska cestica brojquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;katastarskaCesticaBroj (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/katastarskaCesticaBroj"/>
+<property name="inputBinding" value="prikljucak_out/katastarskaCesticaBroj"/>
 <property name="outputBinding" value="prikljucak_out/katastarskaCesticaBroj"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="12" name="prikljucakId_katastarskaOpcina" type="InputText" id="1215916954">
+<field position="12" name="prikljucakId_katastarskaOpcina" type="InputText" id="1299313961">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Katastarska opcina quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;katastarskaOpcina (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/katastarskaOpcina"/>
+<property name="inputBinding" value="prikljucak_out/katastarskaOpcina"/>
 <property name="outputBinding" value="prikljucak_out/katastarskaOpcina"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="15" name="prikljucakId_profilPrikljucka" type="InputText" id="2132682963">
+<field position="13" name="prikljucakId_profilPrikljucka" type="InputText" id="109464589">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;profil prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;profilPrikljucka (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/profilPrikljucka"/>
+<property name="inputBinding" value="prikljucak_out/profilPrikljucka"/>
 <property name="outputBinding" value="prikljucak_out/profilPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="14" name="prikljucakId_vrstaPrikljucka" type="InputText" id="1862865189">
+<field position="14" name="prikljucakId_vrstaPrikljucka" type="InputText" id="2116084941">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;vrsta prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;vrstaPrikljucka (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/vrstaPrikljucka"/>
+<property name="inputBinding" value="prikljucak_out/vrstaPrikljucka"/>
 <property name="outputBinding" value="prikljucak_out/vrstaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="ugovorId_ugovorId" type="InputText" id="1115905767">
+<field position="15" name="ugovorId_ugovorId" type="InputText" id="2089449024">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj ugovoraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;ugovorId (ugovorId)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="ugovor_in/ugovorId"/>
-<property name="outputBinding" value="ugovor_out/ugovorId"/>
+<property name="inputBinding" value="ugovor_out /ugovorId"/>
+<property name="outputBinding" value="ugovor_out /ugovorId"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="korisnik_in" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Korisnik" id="korisnikId"/>
-<dataHolder inputId="nalogIzvedba_in" name="#FBB767" type="dataModelerEntry" outId="nalogIzvedba_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba" id="nalogIzvedbaId"/>
-<dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
-<dataHolder inputId="ugovor_in" name="#B29FE4" type="dataModelerEntry" outId="ugovor_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Ugovor" id="ugovorId"/>
+<dataHolder inputId="korisnik_out" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Korisnik" id="korisnikId"/>
+<dataHolder inputId="nalogIzvedba_out" name="#FBB767" type="dataModelerEntry" outId="nalogIzvedba_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba" id="nalogIzvedbaId"/>
+<dataHolder inputId="prikljucak_out" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
+<dataHolder inputId="ugovor_out " name="#BBBBBB" type="dataModelerEntry" outId="ugovor_out " value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Ugovor" id="ugovorId"/>
 </form>
