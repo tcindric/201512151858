@@ -5,27 +5,32 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
         [
    "name" : "ZahtijevDozvolaWorkItemHandler",
     "displayName" : "Slanje zahtjeva za izdavanje dozvole prijekopa",
-    "icon" : "defaultemailicon.gif"
+    "icon" : "defaultemailicon.gif",
+    "results" : ["podatak" : new StringDataType()]
   ],
     [
    "name" : "ObavijestDokumentacijaWorkItemHandler",
     "displayName" : "Slanje obavijesti o nepotpunoj dokumentaciji",
-    "icon" : "defaultemailicon.gif"
+    "icon" : "defaultemailicon.gif",
+    "results" : ["podatak" : new StringDataType()]
   ],
      [
    "name" : "RacunWorkItemHandler",
     "displayName" : "Slanje racuna",
-    "icon" : "defaultemailicon.gif"
+    "icon" : "defaultemailicon.gif",
+    "results" : ["podatak" : new StringDataType()]
   ],
     [
    "name" : "ObavijestOknoWorkItemHandler",
     "displayName" : "Slanje obavijesti o izradi okna",
-    "icon" : "defaultemailicon.gif"
+    "icon" : "defaultemailicon.gif",
+    "results" : ["podatak" : new StringDataType()]
   ],
       [
    "name" : "ObavijestPotpisWorkItemHandler",
     "displayName" : "Slanje obavijesti o potpisu ugovora",
-    "icon" : "defaultemailicon.gif"
+    "icon" : "defaultemailicon.gif",
+    "results" : ["podatak" : new StringDataType()]
   ],
   [
     "name" : "Email",
