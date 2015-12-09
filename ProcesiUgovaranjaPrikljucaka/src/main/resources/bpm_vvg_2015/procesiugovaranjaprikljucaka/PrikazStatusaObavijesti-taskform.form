@@ -3,15 +3,7 @@
 <property name="name" value="PrikazStatusaObavijesti-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="obavijestId" type="InputText" id="1790048895">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;obavijest_in (obavijestId)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="obavijest_in"/>
-<property name="outputBinding" value="obavijest_out"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="korisnikId_imeKorisnika" type="InputText" id="451939854">
+<field position="0" name="korisnikId_imeKorisnika" type="InputText" id="451939854">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;imeKorisnika (korisnikId)quot;"/>
 <property name="readonly" value="false"/>
@@ -19,6 +11,14 @@
 <property name="outputBinding" value="korisnik_out/imeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="1" name="obavijestId" type="InputText" id="487994516">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;podatak (obavijestId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="podatak"/>
+<property name="outputBinding" value="obavijest_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <dataHolder inputId="korisnik_in" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Korisnik" id="korisnikId"/>
-<dataHolder inputId="obavijest_in" name="#E9E371" type="basicType" outId="obavijest_out" value="java.lang.String" id="obavijestId"/>
+<dataHolder inputId="podatak" name="#E9E371" type="basicType" outId="obavijest_out" value="java.lang.String" id="obavijestId"/>
 </form>
