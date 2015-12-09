@@ -58,15 +58,7 @@
 <property name="outputBinding" value="korisnik_out/adresaKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="korisnikId_korisnikId" type="InputText" id="391601828">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;korisnikId (korisnikId)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="korisnik_out/korisnikId"/>
-<property name="outputBinding" value="korisnik_out/korisnikId"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="prikljucakId_adresaPrikljucka" type="InputText" id="1675071455">
+<field position="7" name="prikljucakId_adresaPrikljucka" type="InputText" id="1675071455">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;adresaPrikljucka (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
@@ -74,7 +66,7 @@
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="9" name="prikljucakId_dubinaPrikljucka" type="InputText" id="1832897286">
+<field position="8" name="prikljucakId_dubinaPrikljucka" type="InputText" id="1832897286">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;dubinaPrikljucka (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
@@ -82,7 +74,7 @@
 <property name="outputBinding" value="prikljucak_out/dubinaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="prikljucakId_duzinaPrikljucka" type="InputText" id="2113735369">
+<field position="9" name="prikljucakId_duzinaPrikljucka" type="InputText" id="2113735369">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;duzinaPrikljucka (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
@@ -90,7 +82,7 @@
 <property name="outputBinding" value="prikljucak_out/duzinaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="11" name="prikljucakId_katastarskaCesticaBroj" type="InputText" id="1868497656">
+<field position="10" name="prikljucakId_katastarskaCesticaBroj" type="InputText" id="1868497656">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;katastarskaCesticaBroj (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
@@ -98,7 +90,7 @@
 <property name="outputBinding" value="prikljucak_out/katastarskaCesticaBroj"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="12" name="prikljucakId_katastarskaOpcina" type="InputText" id="1299313961">
+<field position="11" name="prikljucakId_katastarskaOpcina" type="InputText" id="1299313961">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;katastarskaOpcina (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
@@ -106,7 +98,7 @@
 <property name="outputBinding" value="prikljucak_out/katastarskaOpcina"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="13" name="prikljucakId_profilPrikljucka" type="InputText" id="109464589">
+<field position="12" name="prikljucakId_profilPrikljucka" type="InputText" id="109464589">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;profilPrikljucka (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
@@ -114,7 +106,7 @@
 <property name="outputBinding" value="prikljucak_out/profilPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="14" name="prikljucakId_vrstaPrikljucka" type="InputText" id="2116084941">
+<field position="13" name="prikljucakId_vrstaPrikljucka" type="InputText" id="2116084941">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;vrstaPrikljucka (prikljucakId)quot;"/>
 <property name="readonly" value="false"/>
@@ -122,12 +114,28 @@
 <property name="outputBinding" value="prikljucak_out/vrstaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="15" name="ugovorId_ugovorId" type="InputText" id="2089449024">
+<field position="14" name="ugovorId_ugovorId" type="InputText" id="2089449024">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;ugovorId (ugovorId)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="ugovor_out /ugovorId"/>
 <property name="outputBinding" value="ugovor_out /ugovorId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="nalogIzvedbaId_nalogId" type="InputText" id="625268786">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nalogId (nalogIzvedbaId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="nalogIzvedba_out/nalogId"/>
+<property name="outputBinding" value="nalogIzvedba_out/nalogId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="korisnikId_brojTelefonaKorisnika" type="InputText" id="1822950145">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;brojTelefonaKorisnika (korisnikId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="korisnik_out/brojTelefonaKorisnika"/>
+<property name="outputBinding" value="korisnik_out/brojTelefonaKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="korisnik_out" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Korisnik" id="korisnikId"/>
